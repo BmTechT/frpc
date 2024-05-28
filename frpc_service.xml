@@ -1,0 +1,10 @@
+<service>
+ <id>frpc</id>
+ <name>frpc</name>
+ <description>frpc</description>
+ <depend></depend>
+ <executable>frpc.exe</executable>
+ <arguments>-c frpc.ini</arguments>
+ <delayedAutoStart/>
+ <onfailure action="restart" delay="20 sec"/>
+</service>
